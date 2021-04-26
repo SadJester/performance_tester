@@ -12,4 +12,5 @@ if exist "%BUILD_DIR%" (
 
 cd "%REPO_DIR%\build"
 cmake "%REPO_DIR%\Sources"
+rem cmake "%REPO_DIR%\Sources" -DHUNTER_STATUS_DEBUG=ON
 cd "%REPO_DIR%"
