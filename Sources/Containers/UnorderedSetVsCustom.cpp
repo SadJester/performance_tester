@@ -4,6 +4,8 @@
 #include <unordered_map>
 #include <vector>
 #include <array>
+#include <string>
+#include <string_view>
 
 #include "../utilities/test_utilities.h"
 

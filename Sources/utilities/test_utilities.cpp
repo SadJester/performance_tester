@@ -1,4 +1,3 @@
-#include "../stdafx.h"
 #include "test_utilities.h"
 
 namespace test_utilities

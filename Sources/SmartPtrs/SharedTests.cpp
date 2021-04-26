@@ -2,6 +2,8 @@
 
 #include <vector>
 #include <memory>
+#include <string>
+#include <iostream>
 
 namespace smart_ptrs
 {

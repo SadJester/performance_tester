@@ -9,6 +9,7 @@
 #include <iostream>
 #include <iomanip>
 
+#include "timer.h"
 
 namespace test_utilities
 {
