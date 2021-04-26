@@ -6,7 +6,7 @@ set "SOURCES_DIR=%REPO_DIR%Sources"
 
 if exist "%BUILD_DIR%" (
 	echo "Remove %BUILD_DIR%"
-	del /S /Q /F "%BUILD_DIR%"
+	del /S /Q /F "%BUILD_DIR%" > NULL
 	for /f %%f in ('dir /ad /b "%BUILD_DIR%"') do rd /s /q "%BUILD_DIR%"\%%f
 )
 
